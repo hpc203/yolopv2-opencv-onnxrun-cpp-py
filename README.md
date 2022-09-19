@@ -4,7 +4,7 @@
 由于模型文件数量比较多，无法直接上传到github，因此把模型文件上传到百度云盘。
 链接: https://pan.baidu.com/s/1aOflEqusdGZT2mhQI-ckqg  密码: w6g9
 
-54个onnx模型文件的磁盘空间，一共有7.84G，其中
+54个onnx模型文件，占用的磁盘空间是7.84G，其中
 
 
 
