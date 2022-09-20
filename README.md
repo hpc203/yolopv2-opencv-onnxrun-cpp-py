@@ -16,6 +16,6 @@ onnx文件做推理并且结果正常，但是opencv的dnn模块不能。
 因此在加载onnx_split文件夹里的onnx文件做推理之后的后处理，包括过滤置信度低的检测框，然后执行nms去除重叠度高的检测框。
 经过程序运行实验，onnxruntime能加载onnx文件做推理并且结果正常，而opencv的dnn模块能加载onnx文件，但是在forward函数报错。
 
-(3). onnx文件夹里的onnx文件, 是不包含最后3个yolo层的。因此在加载onnx_split文件夹里的onnx文件做推理之后的后处理，包括
+(3). onnx文件夹里的onnx文件, 是不包含最后3个yolo层的。因此在加载onnx文件夹里的onnx文件做推理之后的后处理，包括
 3个yolo层分别做decode，过滤置信度低的检测框，执行nms去除重叠度高的检测框，一共3个步骤。
 经过程序运行实验，onnxruntime和opencv的dnn模块都能加载onnx文件做推理并且结果正常。
